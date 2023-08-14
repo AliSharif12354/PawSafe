@@ -62,8 +62,9 @@ function Navbar_V2() {
       <Navbar sticky='top' className='navbar navbar-fixed-top'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Zam Zam B&B
-            <i className="fa-solid fa-person-walking-luggage fa-shake"></i>
+            SilentPaws
+            {/* <i className="fa-solid fa-person-walking-luggage fa-shake"></i> */}
+            <img src="/src/Images/150-150-white.png" style={{width: '100px', height: '100px', marginTop: '20px'}} alt="Silent Paws Logo" />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

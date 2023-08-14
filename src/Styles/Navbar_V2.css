@@ -10,6 +10,11 @@
   z-index: 999;
 }
 
+.navbar-logo-sub {
+  width: 100px;
+  height: 100px;
+}
+
 .navbar-container {
   display: flex;
   justify-content: center;
