@@ -76,7 +76,7 @@ function Navbar_V2() {
           ) : (
             ""
           )}
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          {/* <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             {auth.currentUser ? (
               <li id='0' className='nav-item'>
                 <Link to='/adminRoute' className='nav-links' onClick={closeMobileMenu}>
@@ -113,10 +113,10 @@ function Navbar_V2() {
                 Products
               </Link>
             </li>
-          </ul>
-          <div className="nav-socials">
-            <SocialIcon url="https://www.facebook.com/ZamZam176/" target="_blank" />
+          </ul> */}
+          <div style={{marginLeft: '30%'}} className="nav-socials">
             <SocialIcon url="https://www.instagram.com/zamzam_bag_boutique/?hl=en" target="_blank" />
+            <SocialIcon url="https://amzn.to/3QAbAmC" target="_blank" />
           </div>
           {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </div>
