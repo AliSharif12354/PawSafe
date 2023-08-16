@@ -1,5 +1,5 @@
-# Zam Zam Bags & Boutique Website!
- Web application developement for local Toronto business Zam Zam BB using ReactJS!
+# AlBasmala - SilentPaws Website!
+ Web application developement for SilentPaws brad!
  
  Plans to:
  - Polish the front-end
