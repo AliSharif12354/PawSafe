@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { SocialIcon } from 'react-social-icons';
 import '../Styles/Navbar_V2.css'
 import { auth } from '../Firebase';
 import { Navbar } from 'react-bootstrap';
@@ -39,21 +38,6 @@ function Navbar_V2() {
       setButton(true);
     }
   };
-
-  useEffect(() => {
-    showButton();
-    auth.onAuthStateChanged(user => {
-      if (user) {
-        console.log("There currently is a user signed in with the email: ")
-        console.log(user.email)
-        setAuthUser(user)
-      }
-      else {
-        //console.log("There currently is no one signed in right now.")
-        setAuthUser(null)
-      }
-    })
-  }, []);
 
   window.addEventListener('resize', showButton);
 
@@ -115,8 +99,8 @@ function Navbar_V2() {
             </li>
           </ul> */}
           <div style={{marginLeft: '30%'}} className="nav-socials">
-            <SocialIcon url="https://www.instagram.com/zamzam_bag_boutique/?hl=en" target="_blank" />
-            <SocialIcon url="https://amzn.to/3QAbAmC" target="_blank" />
+            {/* <SocialIcon url="https://www.instagram.com/zamzam_bag_boutique/?hl=en" target="_blank" /> */}
+            <a target='_blank' href="https://amzn.to/3QAbAmC"><i style={{scale: '250%'}} class="fab fa-amazon"></i></a>
           </div>
           {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </div>

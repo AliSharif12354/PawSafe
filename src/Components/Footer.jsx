@@ -6,8 +6,7 @@ import {
   MDBRow
 } from 'mdb-react-ui-kit';
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
-import { SocialIcon } from 'react-social-icons';
-import { Icon } from '@iconify/react';
+import { SocialIcon } from 'react-social-icons';;
 import { Link } from 'react-router-dom';
 
 export default function App() {
@@ -15,8 +14,8 @@ export default function App() {
     <MDBFooter className='text-center hover' color='white' bgColor='dark'>
       <MDBContainer className='p-4'>
         <section className='mb-4'>
-          <SocialIcon url="https://www.instagram.com/zamzam_bag_boutique/?hl=en" target="_blank" />
-          <SocialIcon url="https://amzn.to/3QAbAmC" target="_blank" />
+          {/* <SocialIcon url="https://www.instagram.com/zamzam_bag_boutique/?hl=en" target="_blank" /> */}
+          <a target='_blank' href="https://amzn.to/3QAbAmC"><i style={{scale: '250%'}} class="fab fa-amazon"></i></a>
         </section>
 
         <section className=''>
@@ -51,7 +50,7 @@ export default function App() {
                   647-939-5349
                 </li>
                 <li>
-                  <a href='#!' className='text-white'>
+                  <a href='https://amzn.to/3QAbAmC' className='text-white'>
                     Visit us on Instagram and Amazon!
                   </a>
                 </li>
