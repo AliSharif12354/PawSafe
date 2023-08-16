@@ -48,7 +48,7 @@ function Navbar_V2() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             SilentPaws
             {/* <i className="fa-solid fa-person-walking-luggage fa-shake"></i> */}
-            <img src="/src/Images/150-150-white.png" style={{width: '100px', height: '100px', marginTop: '20px'}} alt="Silent Paws Logo" />
+            <img src="/Images/150-150-white.png" style={{width: '100px', height: '100px', marginTop: '20px'}} alt="Silent Paws Logo" />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
