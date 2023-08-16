@@ -8,7 +8,7 @@ const AmazonAd = () => {
       <div className="container">
         <div className="amazon-content">
           <div className='main-image'>
-            <Flyer key={3} exp="123" logo={'./src/Images/NewMainOne.jpg'}></Flyer>
+            <Flyer key={3} exp="123" logo={'./public/Images/NewMainOne.jpg'}></Flyer>
           </div>
           <div className='Main-text'>
             <h1>Get Your Anti Barking Device Now!</h1>
