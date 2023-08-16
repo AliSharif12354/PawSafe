@@ -44,9 +44,9 @@ function App() {
         <h2>The humane answer! Tested by professionals, Enjoy friendly friends without the need of a shock collar.</h2>
         <br />
         <div>
-          <Flyer key={0} exp="123" logo={'./public/Images/MaybeFive.png'}></Flyer>
-          <Flyer key={1} exp="123" logo={'./public/Images/MaybeFour.png'}></Flyer>
-          <Flyer key={2} exp="123" logo={'./public/Images/MaybeThree.png'}></Flyer>
+          <Flyer key={0} exp="123" logo={'/Images/MaybeFive.png'}></Flyer>
+          <Flyer key={1} exp="123" logo={'/Images/MaybeFour.png'}></Flyer>
+          <Flyer key={2} exp="123" logo={'/Images/MaybeThree.png'}></Flyer>
           {/* {
             flyerURLS.length > 0 ? flyerURLS.map((url, i) =>
               !url.archive ? (<Flyer key={i}exp="123" logo={url.imgSrc}></Flyer>) : (<span/>)
