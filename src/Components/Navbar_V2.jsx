@@ -98,7 +98,7 @@ function Navbar_V2() {
               </Link>
             </li>
           </ul> */}
-          <div style={{marginLeft: '30%'}} className="nav-socials">
+          <div style={{marginLeft: '20%'}} className="nav-socials">
             {/* <SocialIcon url="https://www.instagram.com/zamzam_bag_boutique/?hl=en" target="_blank" /> */}
             <a target='_blank' href="https://amzn.to/3QAbAmC"><i style={{scale: '250%'}} className="fab fa-amazon"></i></a>
           </div>
