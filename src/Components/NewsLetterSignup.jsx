@@ -52,7 +52,7 @@ const NewsLetterSignup = () => {
                 )}
                 <Form className='input-form' onSubmit={handleSubmit}>
                     <Form.Group className='input-form' controlId="formName">
-                        <Form.Label style={{color: '#FFFFCC'}}>Your name</Form.Label>
+                        <Form.Label>Your name</Form.Label>
                         <Form.Control
                             type="text"
                             placeholder="Enter your name"
@@ -61,7 +61,7 @@ const NewsLetterSignup = () => {
                         />
                     </Form.Group>
                     <Form.Group className='input-form' controlId="formEmail">
-                        <Form.Label style={{color: '#FFFFCC'}}>Your email</Form.Label>
+                        <Form.Label>Your email</Form.Label>
                         <Form.Control
                             type="email"
                             placeholder="Enter your email"

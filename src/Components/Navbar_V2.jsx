@@ -50,9 +50,9 @@ function Navbar_V2() {
             {/* <i className="fa-solid fa-person-walking-luggage fa-shake"></i> */}
             <img src="/Images/150-150-white.png" style={{width: '100px', height: '100px', marginTop: '20px'}} alt="Silent Paws Logo" />
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
+          {/* <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
+          </div> */}
           {auth.currentUser ? (
             <div className="logout">
               <button onClick={handleSignOut}>LogOut</button>
