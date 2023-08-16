@@ -40,8 +40,8 @@ function App() {
 
       <div className='Flyers'>
 
-        <h1>SilentPaws - Your Solution for Unwanted Barking and Training Aids.</h1>
-        <h2>The humane answer! Tested by professionals, Enjoy friendly friends without the need of a shock collar.</h2>
+        <h1>SilentPaws</h1>
+        <h2>Your Solution for Unwanted Barking!</h2>
         <br />
         <div>
           <Flyer key={0} exp="123" logo={'/Images/MaybeFive.png'}></Flyer>
