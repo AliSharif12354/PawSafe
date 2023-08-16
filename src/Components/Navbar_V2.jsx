@@ -100,7 +100,7 @@ function Navbar_V2() {
           </ul> */}
           <div style={{marginLeft: '30%'}} className="nav-socials">
             {/* <SocialIcon url="https://www.instagram.com/zamzam_bag_boutique/?hl=en" target="_blank" /> */}
-            <a target='_blank' href="https://amzn.to/3QAbAmC"><i style={{scale: '250%'}} class="fab fa-amazon"></i></a>
+            <a target='_blank' href="https://amzn.to/3QAbAmC"><i style={{scale: '250%'}} className="fab fa-amazon"></i></a>
           </div>
           {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </div>
